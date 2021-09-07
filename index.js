@@ -1,10 +1,5 @@
-index.js
-
-fuction getIMC(){
-  ver peso=parsefloat(document.
-                      get element ById(¨peso¨).value;
-  ver altura=parsefloat(document.
-                        get element ById(¨altura¨).value);
-  ver IMC= peso /(altura*altura);
-  document=getElement ById (¨IMC¨).inner HTML=imc;
-}
+function getIMC(){ 
+var peso=parseFloat(document.getElementById('peso').value);
+var altura=parseFloat(document.getElementById('altura').value);
+var imc=peso/(altura*altura);
+document.getElementById("imc").innerHTML=imc;}
